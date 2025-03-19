@@ -32,6 +32,7 @@ To set up the project locally, follow these steps:
 ```sh
 git clone https://github.com/your-username/penlight.git
 cd penlight/frontEnd
+```
 
 ### Install dependencies
 `npm install`
@@ -48,6 +49,6 @@ cd penlight/frontEnd
 ### Deployment
 `vercel --prod`
 
-### Made with ❤️ by Vedant Bohra.
+<p align="center">Made with ❤️ by Vedant Bohra.</p>
 
 
