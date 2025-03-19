@@ -31,3 +31,13 @@ lerna-debug.log*
 
 # misc
 .DS_Store
+
+# Ignore compiled JS and declaration files everywhere
+**/*.js
+**/*.d.ts
+
+# But allow committed TypeScript files
+!**/*.ts
+
+# Ignore build outputs
+**/dist/
