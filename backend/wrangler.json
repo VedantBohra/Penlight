@@ -1,0 +1,12 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "penlight",
+  "main": "src/index.ts",
+  "compatibility_date": "2025-02-06",
+  "vars" : {
+    "DATABASE_URL" : "prisma://accelerate.prisma-data.net/?api_key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcGlfa2V5IjoiNDI1OWM3MzUtMTI1Zi00ZDAxLWIwNjktZmFkMzkyN2FkZDIwIiwidGVuYW50X2lkIjoiYTdlMjIzM2U5YTRhZmNmNTQ2MzlhZTI2MzEzN2RiMWIzNTVlOGYwZTkyYmNiZDgwYjk4ODM2MzgyM2E3ZDlhNiIsImludGVybmFsX3NlY3JldCI6IjdhZGQ2ODVlLTAyMzItNDZiZi04NWFlLTRjZDM1NjMxOGEwYyJ9.iDyCDMjdCr-b9GMoYiELncaeLH7MXuW79Vn5vRikKtg"
+    ,"SECRET_KEY" : "JWT_SECRET"
+  }
+}
+
+ 

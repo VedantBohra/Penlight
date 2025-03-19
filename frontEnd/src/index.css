@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+
+@theme{
+    --font-roboto:Roboto,"sans-serif"
+}
+
+
+.custom-editor .ProseMirror {
+    height: 100%; /* Forces the inner editor to take full height */
+    overflow-y: auto; /* Ensures scrolling when needed */
+    border: 1px solid #ccc;  /* Permanent border */
+    padding: 0.5rem;  /* Adds spacing inside */
+    outline: none;  
+  }
+
+/* Placeholder Styling for Tiptap */
+.ProseMirror p.is-empty::before {
+    content: attr(data-placeholder);
+    color: gray;
+    font-style: italic;
+    pointer-events: none;
+    display: inline;
+}
+
+/* When editor is focused, remove outline */
+.custom-editor .ProseMirror:focus {
+    outline: none;
+}
